@@ -25,6 +25,7 @@ class TodoListActivity : AppCompatActivity() {
 
         list.add("alhaj")
         list.add("ataul")
+        list.add("hasan")
 
         rv_main.layoutManager = LinearLayoutManager(this)
         val adaptor=MainAdaptor(list)
